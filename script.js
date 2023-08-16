@@ -1,20 +1,10 @@
-const display = document.getElementById("result");
-const buttons = document.querySelectorAll("button");
-const calculateButton = document.getElementById("calculate");
-const clearButton = document.getElementById("clear");
+function clearButton() {
+    document.getElementById("result").value = " ";
+}
+function addNumber(value) {
+    document.getElementById("result").value +=value;
+}
+function calculateButton() {
+    var input = document.getElementById("result").value;
 
-buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-        if (button.innerText === "=") {
-            try {
-                display.value = eval(display.value);
-            } catch {
-                display.value = "Hata";
-            }
-        } else if (button.innerText === "AC") {
-            display.value = "";
-        } else {
-            display.value += button.innerText;
-        }
-    });
-});
+}
