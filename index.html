@@ -11,28 +11,27 @@
         <input type="text" id="result" disabled>
         <div class="buttons">
             <button value= "AC" id="clear" onclick="clearButton()">AC</button>
-            <button value="+/-" onclick="addNumber('+')">+/-</button>
-            <button value="%" onclick="addNumber('%')">%</button>
-            <button value="/" class="backg-c" onclick="addNumber('/')">/</button>
+            <button value="-" onclick="addNumber('-')">+/-</button>
+            <button value="%" onclick="percent('%')">%</button>
+            <button value="/" class="backg-c" onclick="divide('/')">/</button>
             <button value="7" onclick="addNumber('7')">7</button>
             <button value="8" onclick="addNumber('8')">8</button>
             <button value="9" onclick="addNumber('9')">9</button>
-            <button value="*" class="backg-c" onclick="addNumber('*')">*</button>
+            <button value="*" class="backg-c" onclick="multiple('*')">*</button>
             <button value="4" onclick="addNumber('4')">4</button>
             <button value="5" onclick="addNumber('5')">5</button>
-            <button value="6" onclick="addNumber('1')">6</button>
-            <button value="-" class="backg-c" onclick="addNumber('-')">-</button>
+            <button value="6" onclick="addNumber('6')">6</button>
+            <button value="-" class="backg-c" onclick="minus('-')">-</button>
             
             <button value="1" onclick="addNumber('1')">1</button>
             <button value="2" onclick="addNumber('2')">2</button>
             <button value="3" onclick="addNumber('3')">3</button>
-            <button value="+" class="backg-c" onclick="addNumber('+')">+</button>
+            <button value="+" class="backg-c" onclick="plus('+')">+</button>
             <button value="0" class="item0" onclick="addNumber('0')">0</button>
             <button value="," onclick="addNumber(',')">,</button>
-            <button value="=" id="calculate" onclick="calculateButton()">=</button>
+            <button value="=" class="backg-c" id="calculate" onclick="equal()">=</button>
         </div>
         <script src="script.js"></script>
-
     </div>
     
 </body>

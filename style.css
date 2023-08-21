@@ -1,17 +1,17 @@
 body {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 .calculator{
-background-color: rgb(65, 65, 68);
-border-radius:10px;
-padding: 10px;
-width: 400px;
-max-width: 800px;
-text-align: center;
-height: 400px;
+    background-color: rgb(65, 65, 68);
+    border-radius:10px;
+    padding: 10px;
+    width: 400px;
+    max-width: 800px;
+    text-align: center;
+    height: 400px;
 }
 #result{
     border: none;
@@ -33,13 +33,13 @@ height: 400px;
 }
 
 .item0{
-    grid-column-end:2;
-
+    grid-column-end:3;
+   
 }
 button{
     background-color:rgb(107, 102, 102);
     border: 0.5px solid #3d3d3d;
     color: rgb(209, 208, 208);
     padding: 15px;
-    font-size: 30px;
+    font-size: 30px; 
 }
